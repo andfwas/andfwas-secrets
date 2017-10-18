@@ -1,0 +1,26 @@
+{
+  "name": "andfwas-secrets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andfwas/andfwas-secrets.git"
+  },
+  "author": "Andy Smart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andfwas/andfwas-secrets/issues"
+  },
+  "homepage": "https://github.com/andfwas/andfwas-secrets#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "knex": "^0.13.0",
+    "pg": "^7.3.0"
+  }
+}
