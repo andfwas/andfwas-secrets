@@ -15,8 +15,14 @@ app.use(bodyParser.json())
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.get('/', (req, res, next) => {
-  res.render('index')
+  res.render('index', {
+    title: 'Galvanize Secrets'
+  })
   console.log('get sent')
+})
+
+app.get('/create', (req, res, next) => {
+
 })
 
 
